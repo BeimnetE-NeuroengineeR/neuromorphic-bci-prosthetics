@@ -1,0 +1,20 @@
+Refined Recurrent LIF SNN
+=========================
+Accuracy: 0.2899
+Training time (seconds): 11.771
+Batch inference time (ms): 42.4315
+Hidden spike density: 0.21692
+Mean membrane activity: -1.90045
+
+              precision    recall  f1-score   support
+
+   Left hand       0.00      0.00      0.00        18
+  Right hand       0.32      0.35      0.33        17
+        Feet       0.29      0.29      0.29        17
+      Tongue       0.38      0.53      0.44        17
+
+    accuracy                           0.29        69
+   macro avg       0.25      0.29      0.27        69
+weighted avg       0.24      0.29      0.26        69
+
+STDP mean absolute weight change: 0.02520498

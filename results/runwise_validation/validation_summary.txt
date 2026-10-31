@@ -1,0 +1,46 @@
+Leave-One-Run-Out Validation
+============================
+
+Total trials: 273
+Number of held-out runs: 6
+
+CSP + LDA
+Pooled accuracy: 0.7436
+Pooled macro-F1: 0.7396
+
+              precision    recall  f1-score   support
+
+   Left hand       0.84      0.62      0.72        69
+  Right hand       0.76      0.93      0.84        69
+        Feet       0.70      0.66      0.68        68
+      Tongue       0.69      0.76      0.72        67
+
+    accuracy                           0.74       273
+   macro avg       0.75      0.74      0.74       273
+weighted avg       0.75      0.74      0.74       273
+
+
+Hybrid CSP-SNN
+Pooled accuracy: 0.7253
+Pooled macro-F1: 0.7211
+
+              precision    recall  f1-score   support
+
+   Left hand       0.82      0.74      0.78        69
+  Right hand       0.83      0.90      0.86        69
+        Feet       0.62      0.51      0.56        68
+      Tongue       0.62      0.75      0.68        67
+
+    accuracy                           0.73       273
+   macro avg       0.72      0.72      0.72       273
+weighted avg       0.73      0.73      0.72       273
+
+
+Fold-level results
+ fold  held_out_run  test_trials  lda_accuracy  lda_macro_f1  snn_accuracy  snn_macro_f1  snn_spike_density  snn_training_time_seconds
+    1             3           46      0.695652      0.694091      0.717391      0.720272           0.133149                  12.036217
+    2             4           44      0.818182      0.803571      0.750000      0.708509           0.156914                  10.295886
+    3             5           45      0.755556      0.733333      0.688889      0.684743           0.184160                  10.222475
+    4             6           47      0.765957      0.760314      0.723404      0.713298           0.119451                  10.271882
+    5             7           46      0.695652      0.685300      0.739130      0.724578           0.174110                  10.372918
+    6             8           45      0.733333      0.726102      0.733333      0.736742           0.132819                   9.683422

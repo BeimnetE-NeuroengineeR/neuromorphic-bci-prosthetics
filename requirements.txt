@@ -1,0 +1,6 @@
+numpy
+scipy
+mne
+scikit-learn
+torch
+snntorch

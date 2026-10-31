@@ -1,0 +1,3 @@
+Accuracy: 0.7681
+Training trials: 204
+Testing trials: 69

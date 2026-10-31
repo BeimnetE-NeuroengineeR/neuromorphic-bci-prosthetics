@@ -1,0 +1,18 @@
+Hybrid CSP-Recurrent LIF SNN
+============================
+Accuracy: 0.7536
+Training time (s): 10.049
+Batch inference time (ms): 23.1188
+Hidden spike density: 0.09924
+STDP mean absolute update: 0.02036501
+
+              precision    recall  f1-score   support
+
+   Left hand       0.84      0.89      0.86        18
+  Right hand       0.88      0.82      0.85        17
+        Feet       0.60      0.71      0.65        17
+      Tongue       0.71      0.59      0.65        17
+
+    accuracy                           0.75        69
+   macro avg       0.76      0.75      0.75        69
+weighted avg       0.76      0.75      0.75        69
